@@ -1,0 +1,79 @@
+body
+{
+    font-family: 'Arial', sans-serif;
+    background: rgb(23, 14, 5);
+        background: linear-gradient(90deg, rgba(23, 14, 5, 1) 0%, rgba(24, 40, 40, 0.5461834391959909) 0%);
+    margin: 0;
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+    background-color: #4caf59;
+    color: bisque;
+}
+.container
+{
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+label
+{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+input
+{
+    padding: 8px;
+    font-size: 16px;
+    width: 60%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button
+{
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4caf59;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+button:hover
+{
+    background-color: #45a049;
+}
+
+#result
+{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    input,button 
+    {
+        width: 100%;
+    }
+}
+
+#wordInput
+{
+    border-color: #45a049;
+    box-shadow: rgba(17, 17, 26, 0.605) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
